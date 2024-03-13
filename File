@@ -1,0 +1,15 @@
+#!/bin/bash
+echo -e "\e[34m1"
+echo -e "\e[34m2"
+echo -e "\e[34m3"
+echo -e "\e[34m4"
+echo -e "\e[34m5"
+echo -e "\e[34m6"
+case $1 in
+    1)
+        echo "hello"
+        ;;
+    *)
+        echo "Không có câu lệnh tương tự"
+        ;;
+esac

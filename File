@@ -1,13 +1,4 @@
 #!/bin/bash
-echo -e "\e[34mLoad bot"
-sleep 1
-echo -e "\e[34mLoad data in file github"
-sleep 1
-echo -e "\e[34mDone"
-sleep 1
-echo -e "\e[34mStart"
-sleep 1
-echo -e "\e[34mCmd"
 
 inputchao="xin chào"
 
@@ -21,7 +12,21 @@ case $1 in
         *"hi"* )
        echo "${chao[random_chao]}"
         ;;
+        
     *)
         echo "j tr z"
         ;;
+        
+        "get_start")
+        echo -e "\e[34mLoad bot"
+sleep 1
+echo -e "\e[34mLoad data in file github"
+sleep 1
+echo -e "\e[34mDone"
+sleep 1
+echo -e "\e[34mStart"
+sleep 1
+echo -e "\e[34mCmd"
+        ;;
+        
 esac

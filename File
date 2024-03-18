@@ -1,9 +1,14 @@
-#!/bin/bash
+#!/bin/1
 echo -e "\e[34m1"
+sleep 1
 echo -e "\e[34m2"
+sleep 1
 echo -e "\e[34m3"
+sleep 1
 echo -e "\e[34m4"
+sleep 1
 echo -e "\e[34m5"
+sleep 1
 echo -e "\e[34m6"
 case $1 in
     1)

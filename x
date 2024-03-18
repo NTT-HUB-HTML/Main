@@ -28,7 +28,7 @@ case $1 in
         echo "${trong[rd_trong]}"
         ;;
         
-        load_data)
+        "load_data")
         echo -e "\e[34mLoad bot"
 sleep 1
 echo -e "\e[34mLoad data in file github"

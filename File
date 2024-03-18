@@ -1,20 +1,27 @@
-#!/bin/1
-echo -e "\e[34m1"
+#!/bin/bash
+echo -e "\e[34mLoad bot"
 sleep 1
-echo -e "\e[34m2"
+echo -e "\e[34mLoad data in file github"
 sleep 1
-echo -e "\e[34m3"
+echo -e "\e[34mDone"
 sleep 1
-echo -e "\e[34m4"
+echo -e "\e[34mStart"
 sleep 1
-echo -e "\e[34m5"
-sleep 1
-echo -e "\e[34m6"
+echo -e "\e[34mCmd"
+
+inputchao="xin chào"
+
+chao=("hi" "Chào bạn" "Xin chào")
+random_chao=$(($RANDOM % ${#chao[@]}))
+
 case $1 in
-    1)
-        echo "hello"
+    *"chào"* )
+       echo "${chao[random_chao]}"
+        ;;
+        *"hi"* )
+       echo "${chao[random_chao]}"
         ;;
     *)
-        echo "Không có câu lệnh tương tự"
+        echo "j tr z"
         ;;
 esac

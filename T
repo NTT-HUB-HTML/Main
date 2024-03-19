@@ -1,0 +1,19 @@
+#!/bin/bash
+
+inputchao="xin chào"
+
+chao=("Hi" "Chào bạn" "Xin chào nha")
+rd_chao=$(($RANDOM % ${#chao[@]}))
+
+sai_xinloi=("Xin lỗi" "Tui đã sai")
+rd_sai_xinloi=$(($RANDOM % ${#sai_xinloi[@]}))
+
+trong=("J z tr" "Hả" "j z" "Hở" ":v")
+rd_trong=$(($RANDOM % ${#trong[@]}))
+
+case $1 in
+
+    hi)
+echo "chào bạn"
+;;
+esac
